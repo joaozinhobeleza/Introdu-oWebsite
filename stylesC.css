@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+
+}
+
+.contato_links{
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0px 0px 3px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato_sobre {
+    display: flex;
+}
+
+.imgW img{
+    width: 50px;
+    
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    background-color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
